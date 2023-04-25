@@ -5,13 +5,13 @@
 
 <span class="figcaption_hack">Cora Data set Citation Graph</span>
 
-### Motivation :
+### Aim :
 
 
 Using Graph extracted features can boost the performance of predictive models by
 relying of information flow between close nodes. However, representing graph
 data is not straightforward especially if we don’t intend to implement
-hand-crafted features.<br> In this post we will explore some ways to deal with
+hand-crafted features.<br> Here we will explore some ways to deal with
 generic graphs to do node classification based on graph representations learned
 directly from data.
 
