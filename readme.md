@@ -1,11 +1,3 @@
-## Steps to run =>
-* Download the cora dataset from this link : https://linqs.soe.ucsc.edu/data
-* unzip the files in the folder input/cora
-* cd code
-* python eda.py
-* python word_features_only.py \# for baseline model 53.28% accuracy
-* python graph_embedding.py \# for model_1 73.06% accuracy
-* python graph_features_embedding.py \# for model_2 76.35% accuracy
 
 # Learning from Graph data using Keras and Tensorflow
 
@@ -15,9 +7,7 @@
 
 ### Motivation :
 
-There is a lot of data out there that can be represented in the form of a graph
-in real-world applications like in Citation Networks, Social Networks (Followers
-graph, Friends network, … ), Biological Networks or Telecommunications. <br>
+
 Using Graph extracted features can boost the performance of predictive models by
 relying of information flow between close nodes. However, representing graph
 data is not straightforward especially if we don’t intend to implement
@@ -113,9 +103,8 @@ approach.
 
 ### Conclusion :
 
-In this post we saw that we can learn useful representations from graph
-structured data and then use these representations to improve the generalization
-performance of a node classification model from **53.28% ***to*** 76.35% **😎.
+We can learn useful representations from graph structured data and then use 
+these representations to improve the generalization performance of a node 
+classification model from **53.28% ***to*** 76.35% **😎.
 
-Code to reproduce the results is available here :
-[https://github.com/CVxTz/graph_classification](https://github.com/CVxTz/graph_classification)
+
